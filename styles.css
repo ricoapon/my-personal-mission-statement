@@ -116,7 +116,8 @@ p {
   }
 
   main {
-    padding: 32px 20px;
+    /* Mobile URL bar is at the bottom as an overlay on the page. Increase bottom padding to be able to see the quote. */
+    padding: 32px 20px 56px;
   }
 
   .intro-panel {
